@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="authservice-api" />
+        <module name="authservice-dao" />
         <module name="authservice-proxy" />
         <module name="authservice-service" />
       </profile>
@@ -14,6 +15,7 @@
     <bytecodeTargetLevel>
       <module name="authservice" target="1.5" />
       <module name="authservice-api" target="1.5" />
+      <module name="authservice-dao" target="1.5" />
       <module name="authservice-proxy" target="1.5" />
       <module name="authservice-service" target="1.5" />
     </bytecodeTargetLevel>

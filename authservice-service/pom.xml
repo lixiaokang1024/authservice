@@ -11,5 +11,17 @@
 
     <artifactId>authservice-service</artifactId>
 
+    <build>
+        <filters>
+            <filter>src/main/resources/config/${profiles.active}/jdbc.properties</filter>
+            <filter>src/main/resources/config/${profiles.active}/hessian-api.properties</filter>
+        </filters>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
 
 </project>
