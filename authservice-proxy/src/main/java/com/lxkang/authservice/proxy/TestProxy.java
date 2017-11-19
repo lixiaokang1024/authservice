@@ -8,7 +8,6 @@ public class TestProxy implements TestApi {
     private TestService testService;
 
     public void read() {
-
-        System.out.println("asasd");
+        System.out.println("asd");
     }
 }
